@@ -112,4 +112,13 @@ public class bl {
     public void setBdate(Date bdate) {
         this.bdate = bdate;
     }
+
+	@Override
+	public String toString() {
+		return "bl [id=" + id + ", bh=" + bh + ", bname=" + bname + ", bgys=" + bgys + ", btype=" + btype + ", count1="
+				+ count1 + ", price=" + price + ", price2=" + price2 + ", price3=" + price3 + ", price4=" + price4
+				+ ", bdate=" + bdate + "]";
+	}
+    
+    
 }

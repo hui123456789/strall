@@ -18,6 +18,7 @@ public class blAction {
 	
 	@GetMapping
 	public Map<String,Object> show(){
+		System.out.println("第二次修改");
 		Map<String, Object> map = new HashMap<String, Object>();
 		map.put("code","200");
 		map.put("magss", "出错了");
